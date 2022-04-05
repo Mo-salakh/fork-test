@@ -1,0 +1,16 @@
+{
+  "name": "app-js-modules",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel public/index.html --open",
+    "build": "parcel build public/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.3.2",
+    "postcss-modules": "^4.3.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
